@@ -17,11 +17,66 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Negotiations
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/negotiations/master/_listings/reverb/apis.md
 specificationVersion: "0.14"
 apis:
+- name: reverb - Get My Listings Negotiations
+  x-api-slug: mylistingsnegotiations-get
+  description: Get a list of active negotiations as a seller
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/negotiations/master/_listings/reverb/mylistingsnegotiations-get-openapi.md
+- name: reverb - Get My Negotiations Buying
+  x-api-slug: mynegotiationsbuying-get
+  description: Get a list of active negotiations as a buyer
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/negotiations/master/_listings/reverb/mynegotiationsbuying-get-openapi.md
+- name: reverb - Get My Negotiations
+  x-api-slug: mynegotiationsid-get
+  description: Get my negotiations.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/negotiations/master/_listings/reverb/mynegotiationsid-get-openapi.md
+- name: reverb - Post My Negotiations Accept
+  x-api-slug: mynegotiationsidaccept-post
+  description: Post my negotiations accept.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/negotiations/master/_listings/reverb/mynegotiationsidaccept-post-openapi.md
+- name: reverb - Post My Negotiations Counter
+  x-api-slug: mynegotiationsidcounter-post
+  description: Post my negotiations counter.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/negotiations/master/_listings/reverb/mynegotiationsidcounter-post-openapi.md
 - name: reverb - Post My Negotiations Decline
   x-api-slug: mynegotiationsiddecline-post
   description: Post my negotiations decline.
@@ -35,6 +90,42 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/negotiations/master/_listings/reverb/mynegotiationsiddecline-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/negotiations/master/_listings/reverb/mynegotiationsiddecline-post-openapi.md
+- name: reverb - Get Listings Negotiation
+  x-api-slug: listingsidnegotiation-get
+  description: Returns the latest negotiation for the requesting user given a listing
+    id
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/negotiations/master/_listings/reverb/listingsidnegotiation-get-openapi.md
+- name: reverb - Get Listings Negotiation
+  x-api-slug: listingsidnegotiation-get
+  description: Returns the latest negotiation for the requesting user given a listing
+    id
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/negotiations/master/_listings/reverb/listingsidnegotiation-get-openapi.md
+- name: reverb - Get Listings Negotiation
+  x-api-slug: listingsidnegotiation-get
+  description: Returns the latest negotiation for the requesting user given a listing
+    id
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/negotiations/master/_listings/reverb/listingsidnegotiation-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://respoke.api.gallery.streamdata.io

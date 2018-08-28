@@ -703,6 +703,54 @@ paths:
       - Claiming
       - Negotiatorthe
       - Task
+  /api/todo/reassigntodo:
+    put:
+      summary: Reassign a todo to different negotiator(s)
+      description: Reassign a todo to different negotiator(s).
+      operationId: DefaultToDo_ReassignTodoByreassignTodoCommandData
+      x-api-path-slug: apitodoreassigntodo-put
+      parameters:
+      - in: body
+        name: reassignTodoCommandData
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Reassign
+      - Todo
+      - To
+      - Different
+      - Negotiator(s)
+  /api/todo/reassigntodotasks:
+    put:
+      summary: Reassign a list of tasks to different negotiator(s)
+      description: Reassign a list of tasks to different negotiator(s).
+      operationId: DefaultToDo_ReassignTodoTasksByreassignTasksCommandData
+      x-api-path-slug: apitodoreassigntodotasks-put
+      parameters:
+      - in: body
+        name: reassignTasksCommandData
+        schema:
+          $ref: '#/definitions/holder'
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Reassign
+      - List
+      - Of
+      - Tasks
+      - To
+      - Different
+      - Negotiator(s)
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
